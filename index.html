@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown & Quotes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="modal" class="modal">
+        <div class="modal-box">
+            <p>Welcome to Countdown & Quotes App 🚀 — Stay motivated!</p>
+            <button id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <section class="countdown-section">
+            <h1>Countdown to New Year 2027 🎉</h1>
+            <div class="timer">
+                <div class="timer-box">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="timer-box">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="timer-box">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="timer-box">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+            <p id="timeup"></p>
+            <div class="countdown-btns">
+                <button id="startBtn">Start</button>
+                <button id="pauseBtn">Pause</button>
+            </div>
+        </section>
+        <section class="quotes-section">
+            <h2>💬 Quote of the Moment</h2>
+            <p id="quoteText"></p>
+            <div class="quote-btns">
+                <button id="prevBtn">⬅ Prev</button>
+                <button id="nextBtn">Next ➡</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

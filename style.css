@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f1a;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.countdown-section {
+    text-align: center;
+}
+
+.countdown-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #f0c040;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.timer-box {
+    background-color: #1e1e2e;
+    border: 2px solid #f0c040;
+    border-radius: 12px;
+    padding: 20px 30px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.timer-box span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f0c040;
+}
+
+.timer-box p {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    margin-top: 5px;
+}
+
+#timeup {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.countdown-btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.countdown-btns button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f0c040;
+    color: #0f0f1a;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.countdown-btns button:hover {
+    background-color: #d4a800;
+}
+
+.quotes-section {
+    text-align: center;
+    background-color: #1e1e2e;
+    border-radius: 16px;
+    padding: 40px 30px;
+    border: 2px solid #6c63ff;
+}
+
+.quotes-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #6c63ff;
+}
+
+#quoteText {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #dddddd;
+    min-height: 60px;
+    font-style: italic;
+}
+
+.quote-btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.quote-btns button {
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #6c63ff;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.quote-btns button:hover {
+    background-color: #574fd6;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-box {
+    background-color: #1e1e2e;
+    border: 2px solid #6c63ff;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.modal-box p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.modal-box button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #6c63ff;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.modal-box button:hover {
+    background-color: #574fd6;
+}
