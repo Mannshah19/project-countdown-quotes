@@ -65,11 +65,11 @@ A simple JavaScript web app that shows a countdown timer to New Year 2027, a mot
 ## Screenshots
 
 ### Countdown Timer
-![Countdown Timer] (images/countdown.png)
+![Countdown Timer](images/countdown.png)
 
 
 ### Modal Popup
-![Modal Popup](screenshots/modal.png)
+![Modal Popup](images/modal.png)
 
 ---
 
