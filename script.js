@@ -1,6 +1,3 @@
-"use strict";
-
-
 const allQuotes = [
     "Success is not final, failure is not fatal: It is the courage to continue that counts.",
     "Believe you can and you're halfway there.",

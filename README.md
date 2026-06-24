@@ -73,6 +73,12 @@ A simple JavaScript web app that shows a countdown timer to New Year 2027, a mot
 
 ---
 
+## Demo Video
+
+[▶ Watch 1-Minute Explanation](https://drive.google.com/file/d/1H0GkZJixW7A8yZnd3oaSE1NmRzekyprx/view?usp=sharing)
+
+---
+
 ## Made By
 
 **Mann**
